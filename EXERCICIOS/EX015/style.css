@@ -1,0 +1,19 @@
+*{
+
+}
+body{ 
+    background-color: blanchedalmond;
+
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+}
+h1{
+    color: #CC706A;
+}
+h2{
+    color: #225E99;
+}

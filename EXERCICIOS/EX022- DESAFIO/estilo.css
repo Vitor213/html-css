@@ -1,0 +1,50 @@
+
+:root{
+    --cor1: #ebe5c5;
+    --cor2: #83e1ad;
+    --cor3: #3DDC84;
+    --cor4: #2fa866;
+
+}
+
+header {
+    h1,h3{
+        text-align: center;
+    } 
+   background-image: linear-gradient(to bottom, var(--cor2), (--cor4)  );
+    padding: 20px;
+    padding-top: 40px;
+    
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    
+}
+body{
+    background-color: rgb(134, 207, 60);
+    margin:auto
+}
+#conteudo{
+    background-color: white;
+    margin: 7%;
+    margin-top: 0%;
+    padding-top: 5px;
+    h1,h2{color: rgb(83, 155, 11);}
+    min-width: 300px;
+    max-width: 1000px
+    
+    
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ #fotomain{
+ width: 100%;
+ }
+
+
