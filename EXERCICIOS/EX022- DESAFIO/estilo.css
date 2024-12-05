@@ -14,6 +14,8 @@ header {
    background-image: linear-gradient(to bottom, var(--cor2), (--cor4)  );
     padding: 20px;
     padding-top: 40px;
+    color: white;
+    background-color: rgb(19, 180, 40);
     
     
     

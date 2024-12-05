@@ -1,0 +1,20 @@
+#cabeca{
+    height: 90vh;
+    background-color: aqua;
+    position: relative;
+    
+
+}
+
+#conteudo{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 200px;
+   
+    
+    
+
+}
