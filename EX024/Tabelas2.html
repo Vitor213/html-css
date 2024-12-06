@@ -19,17 +19,34 @@
         }
         th{
             border: solid 1px black;
+            background-color: rgb(75, 74, 74);
+            color: white;
+        }
+        caption{
+            font-weight: bold;
+            padding: 5px;
+            font-size: 20px;
+            background-color: rgba(128, 128, 128, 0.329);
+        }
+        #parte_do_pe{
+            background-color: rgb(75, 74, 74);
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+
+
         }
     </style>
 </head>
 <body>
     <h1>Lidando com tabelas maiores</h1>
     <table>
+        <caption>Populacao dos estados brasileiros</caption>
         <thead>
             <tr>
-                <th>Estados</th>
-                <th>Populacao</th>
-                <th>% da populacao</th>
+                <th scope="col">Estados</th>
+                <th scope="col" style="width: 50px;">Populacao</th>
+                <th scope="col" style="width: 50px;">% da populacao</th>
             </tr>
         </thead>
         <tbody>
@@ -43,10 +60,20 @@
                 <td>21M</td>
                 <td>10%</td>
             </tr>
+            <tr>
+                <td>Passo Fundo</td>
+                <td>210MIL</td>
+                <td>0,5%</td>
+            </tr>
+            <tr>
+                <td>Alegre Podre</td>
+                <td>50Mil</td>
+                <td>Resto</td>
+            </tr>
         </tbody>
         <tfoot>
             <th>Total de habitantes</th>
-            <td>0000000</td>
+            <td id="parte_do_pe">0000000</td>
         </tfoot>
     </table>
 </body>
