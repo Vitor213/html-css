@@ -8,8 +8,8 @@
 }
 html{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5em;
-    font-weight: 1.5em;
+    font-size: 1.em;
+    font-weight: 1.em;
 }
 menu{
     display: none;
@@ -17,5 +17,8 @@ menu{
 
 article{
     width: 100%;
+    
+}
+article ::after{
     content: 'Artigo impresso atraves do site papapa/github';
 }
