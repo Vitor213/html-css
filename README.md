@@ -1,5 +1,2 @@
 # html-css
- teste
-
-
-Testando
+ Exercicios de html e css do canal curso em video
