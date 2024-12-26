@@ -21,9 +21,22 @@ header h1{
 menu > ul {
     list-style-type: none ;
 }
+span#burger{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+span#burger:hover{
+    background-color: white;
+    color: black;
+
+}
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu a {
@@ -34,6 +47,7 @@ menu a {
     font-size: 20px;
     padding-inline:  10px;
     border-top: 2px solid black;
+    text-align: center;
     
 }
 menu a:hover{
