@@ -6,25 +6,41 @@
     <title>Document</title>
     <style>
 
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
     .caixa-pai{
+        height: 300px;
        display: flex;
       /* flex-direction: row;
        flex-wrap: wrap-reverse; */
-       flex-flow: row wrap;
+       flex-flow: column nowrap;
+       justify-content:space-evenly;
+        
         background-color: aquamarine;
     }
     .filho-item{
         border: 1px solid black;
         padding: 10px;
         background-color: aqua;
-        flex: auto;
+        text-align: center;
+    }
+
+    body > h1{
+        text-align: center;
+        background-color: blue;
+        width: 500px;
+        border-radius: 10px;
+        margin: auto;
+    
         
     }
 
     </style>
 </head>
 <body>
-    <h1>Caixas</h1>
+    <h1>Titulo 1</h1>
     <p>Testando caixas</p>
     <div class="caixa-pai">
         <div class="filho-item" >Exemplo de bloco 1</div>
