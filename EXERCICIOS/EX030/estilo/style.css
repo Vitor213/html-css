@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.caixa-pai{
+    background-color: brown;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-start;
+}
+.caixa-item{
+    border: 1px solid black;
+    text-align: center;
+    background-color: blue;
+    flex-basis: 100px;
+}
