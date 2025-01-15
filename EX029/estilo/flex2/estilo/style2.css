@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.caixa-pai{
+    background-color: brown;
+    display: flex;
+    flex-flow: row wrap;
+    
+   
+}
+.caixa-item{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color: blue;
+}
+div#il{
+    order: -2;
+}
+div#il1{
+    order: -1;
+}
+div#il2{
+    order: -3;   
+}
+div#il3{
+    order: -5;
+}
+div#il4{
+    order: -0;
+}
