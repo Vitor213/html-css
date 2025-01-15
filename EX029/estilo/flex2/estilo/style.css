@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.caixa-pai{
+    background-color: brown;
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    align-content: flex-start;
+}
+.caixa-item{
+    border: 1px solid black;
+    padding: 70px;
+    text-align: center;
+    background-color: blue;
+}
