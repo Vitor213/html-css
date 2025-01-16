@@ -13,5 +13,9 @@
     border: 1px solid black;
     text-align: center;
     background-color: blue;
-    flex-basis: 100px;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+section > div#il2{
+    flex-grow: 2;
 }
