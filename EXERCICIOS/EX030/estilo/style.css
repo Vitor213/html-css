@@ -13,9 +13,19 @@
     border: 1px solid black;
     text-align: center;
     background-color: blue;
-    flex-basis: 300px;
+    flex-basis: 150px;
     flex-grow: 1;
 }
+section > div#il{
+    /* flex: 0 1 150px;*/
+    flex: 1 1 auto;
+}
+section > div#il1{
+    /*flex: 1 0 150px;*/
+    flex: 1 1 auto;
+}
 section > div#il2{
-    flex-grow: 2;
+    /*flex: 0 1 150px;*/
+    flex: 1 1 auto;
+
 }
