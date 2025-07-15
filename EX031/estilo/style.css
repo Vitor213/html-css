@@ -13,16 +13,20 @@ header{
     text-align: center;
     font-family: Arial, sans-serif;
     color: white;
-}
-header{
     background-color: darkgrey;
     height: 100px;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 header > h1{
+    border: 1px dotted black;
     color: white;
+    flex: 0 0 200px;
 }
 nav{
+    
     margin-top: 10px;
+    display: flex;
 }
 a{
     text-decoration: none;
@@ -30,9 +34,12 @@ a{
     background-color: black;
     border-radius: 5px;
     padding: 8px;
+    text-align: center;
+    margin: 2px;
 }
 a:hover{
     background-color: grey;
+    transition: background-color 0.3s;
 }
 body{
     background-color: lightgrey;
