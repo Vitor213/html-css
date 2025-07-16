@@ -20,6 +20,15 @@ header > h1{
     /*border: 1px dotted black;*/
     color: white;
     flex: 0 0 200px;
+    text-shadow: 1px 1px 2px black;
+}
+
+p{
+    margin: 10px 0;
+    line-height: 1.5;
+    color: #333;
+    font-size: 1.2em;
+    text-align: justify;
 }
 nav{
     /*border: 1px dotted black;*/
@@ -46,6 +55,7 @@ body{
     font-size: 1em;
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 main{
     background-color: white;
@@ -53,4 +63,7 @@ main{
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
+
+    max-width: 800px;
+    margin: auto;
 }
